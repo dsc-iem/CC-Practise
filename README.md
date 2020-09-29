@@ -1,13 +1,13 @@
 # IEM-CC-Hacktoberfest
 ![alt text](https://raw.githubusercontent.com/divyake/Cysec-Hacktoberfest/dcc84465cfcff73981f8fcb5c8fe3b1710c007e1/assets/logo.svg)
 
-Can you solve these fundamental programming problems ?
+###Can you solve these fundamental programming problems ?
 
 You may choose to code in any language of your choice ( C/C++, Java, Python, JS, etc.). If you need any assistance (even if you are stuck in coding out your solutions) contact CC team on Discord.
 
 Prerequisites: Account on Hackerrank , Codechef, Codeforces, GFG.
 
-Fill this sheet to validate your solutions as a member of DSC-IEM: https://docs.google.com/spreadsheets/d/1N5Q4S1zyA8OrRy6pivJB0C-NkR6p2KuZ1mbLj9etKsg/edit?usp=sharing
+####Fill this sheet to validate your solutions as a member of DSC-IEM: https://docs.google.com/spreadsheets/d/1N5Q4S1zyA8OrRy6pivJB0C-NkR6p2KuZ1mbLj9etKsg/edit?usp=sharing
 
 Dynamic Array: https://www.hackerrank.com/challenges/dynamic-array/problem ( Head to folder for more details)
 
