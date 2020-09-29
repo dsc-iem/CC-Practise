@@ -1,5 +1,5 @@
 # IEM-CC-Hacktoberfest
-
+![alt text](https://raw.githubusercontent.com/divyake/Cysec-Hacktoberfest/dcc84465cfcff73981f8fcb5c8fe3b1710c007e1/assets/logo.svg)
 
 Can you solve these fundamental programming problems ?
 
