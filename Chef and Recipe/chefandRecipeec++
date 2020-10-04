@@ -1,0 +1,55 @@
+#include <iostream>
+#include <vector>
+#include <algorithm>
+#include <math.h>
+#include <unordered_map>
+#include <unordered_set>
+#include <set>
+#include <iomanip>
+#include <list>
+#include <queue>
+#include <stack>
+#include <map>
+#define modulus 1000000007
+using namespace std;
+
+int n;
+vector<int> arr(1005), cnt(1005, 0);
+unordered_set<int> uset;
+
+void f(){
+    int i = 0;
+    bool ok = true;
+    while(i < n && ok){
+        if(cnt[arr[i]] > 0){
+            // cout << 1 << endl;
+            ok = false;
+            break;
+        }
+        int j = i;
+        while(j < n && arr[j] == arr[i]) j++;
+        int tot = j - i;
+        if(uset.find(tot) != uset.end()){
+            // cout << 2 << endl;
+            ok = false;
+            break;
+        }
+        cnt[arr[i]] = tot;
+        uset.insert(tot);
+        i = j;
+    }
+    if(ok) cout << "YES" << endl;
+    else cout << "NO" << endl;
+}
+
+int main(){
+    int t;
+    cin >> t;
+    while(t--){
+        cin >> n;
+        for(int i = 0; i < n; i++) cin >> arr[i];
+        f();
+        for(int i = 0; i < cnt.size(); i++) cnt[i] = 0;
+        uset.clear();
+    }
+}
