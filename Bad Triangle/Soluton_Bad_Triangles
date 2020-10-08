@@ -3,13 +3,13 @@
 int main()
 {
     int t,i,n,count;
-    scanf("%d", &t);
+    scanf("%d", &t); #Taking the input from user
     while(t--){
         count = 0;
         scanf("%d", &n);
         int arr[n];
         for(i=0;i<n;i++){
-            scanf("%d", &arr[i]);
+            scanf("%d", &arr[i]); #filling up the array
         }
         for(i=2;i<n;i++){
             if(arr[0]+arr[1]<= arr[i]){
