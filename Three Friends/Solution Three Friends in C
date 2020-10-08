@@ -1,0 +1,33 @@
+#include <stdio.h>
+int cal(int a,int b,int c){
+    return abs(a - b) + abs(a - c) + abs(b - c);
+}
+int min(int a, int b){
+    int mini;
+    if(a == b){return a;}
+    else{
+        mini = a<b?a:b;
+        return mini;
+    }
+}
+int main()
+{
+    int i,j,k,na,nb,nc,a,b,c,ans,t;
+    scanf("%d", &t);
+    while(t--){
+        scanf("%d %d %d", &a, &b, &c);
+        ans=cal(a,b,c);
+        for(i=-1;i<=1;i++){
+            for(j=-1;j<=1;j++){
+                for(k=-1;k<=1;k++){
+                    na = a + i;
+					nb = b + j;
+					nc = c + k;
+					ans = min(ans, cal(na, nb, nc));
+                }
+            }
+        }
+        printf("%d\n", ans);
+    }
+    return 0;
+}
