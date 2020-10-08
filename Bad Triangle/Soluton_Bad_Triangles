@@ -3,14 +3,15 @@
 int main()
 {
     int t,i,n,count;
-    scanf("%d", &t); #Taking the input from user
+    scanf("%d", &t); //Taking the number of test cases as input.
     while(t--){
         count = 0;
-        scanf("%d", &n);
+        scanf("%d", &n); // taking size of array as input.
         int arr[n];
         for(i=0;i<n;i++){
-            scanf("%d", &arr[i]); #filling up the array
+            scanf("%d", &arr[i]); //filling up the array
         }
+        //checking for validity of triangle
         for(i=2;i<n;i++){
             if(arr[0]+arr[1]<= arr[i]){
                     count++;
