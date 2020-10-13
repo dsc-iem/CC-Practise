@@ -9,8 +9,6 @@ Fill this sheet to validate your solutions as a member of DSC-IEM: https://docs.
 
 Dynamic Array: https://www.hackerrank.com/challenges/dynamic-array/problem ( Head to folder for more details)
 
-**FashionabLee**: https://codeforces.com/problemset/problem/1369/A ( Head to folder for more details)
-
 Left Rotation: https://www.hackerrank.com/challenges/array-left-rotation/problem ( Head to folder for more details)
 
 Omkar and Password: https://codeforces.com/problemset/problem/1392/A ( Head to folder for more details)
