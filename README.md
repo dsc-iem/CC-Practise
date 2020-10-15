@@ -1,4 +1,4 @@
-#thanks for reading
+
 # IEM-CC-Hacktoberfest
 ![alt text](https://raw.githubusercontent.com/divyake/Cysec-Hacktoberfest/dcc84465cfcff73981f8fcb5c8fe3b1710c007e1/assets/logo.svg)
 
@@ -25,5 +25,7 @@ vi. **Chef and Work**: https://www.codechef.com/COOK121B/problems/CHEFNWRK ( Hea
 vii. **Chef and Recipe**: https://www.codechef.com/COOK118B/problems/CHEFRECP ( Head to [folder](https://github.com/dsc-iem/IEM-CC-Hacktoberfest/tree/master/Chef%20and%20Recipe) for more details)
 
 viii. **Three Friends**: https://codeforces.com/problemset/problem/1272/A ( Head to [folder](https://github.com/dsc-iem/IEM-CC-Hacktoberfest/tree/master/Three%20Friends) for more details)
+
+ix. **FashionabLee**:  http://codeforces.com/problemset/problem/1369/A ( Head to [folder](https://github.com/dsc-iem/IEM-CC-Hacktoberfest/tree/master/FashionabLee) for more details)
 
 `Happy Coding!` :thumbsup:
